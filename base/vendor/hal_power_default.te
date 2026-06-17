@@ -1,14 +1,14 @@
 # To do powerhint on nodes defined in powerhint.json
-allow hal_power_default sysfs_cm_mgr:dir rw_dir_perms;
+allow hal_power_default sysfs_cm_mgr:dir search;
 allow hal_power_default sysfs_cm_mgr:file rw_file_perms;
 
-allow hal_power_default sysfs_ged:dir rw_dir_perms;
+allow hal_power_default sysfs_ged:dir search;
 allow hal_power_default sysfs_ged:file rw_file_perms;
 
-allow hal_power_default proc_perfmgr:dir rw_dir_perms;
+allow hal_power_default proc_perfmgr:dir search;
 allow hal_power_default proc_perfmgr:file rw_file_perms;
 
-allow hal_power_default proc_ppm:dir rw_dir_perms;
+allow hal_power_default proc_ppm:dir search;
 allow hal_power_default proc_ppm:file rw_file_perms;
 
 allow hal_power_default sysfs_dvfsrc_devfreq:dir r_dir_perms;
